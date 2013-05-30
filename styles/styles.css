@@ -1,0 +1,90 @@
+
+
+/* 
+################ BLOCKING 
+*/
+
+
+.item {
+	background: #CCC;
+	height: 300px;
+	margin-bottom: 20px;
+	position: relative;
+	border: 1px solid rgba(0, 0, 0, .05);
+	
+	/* OVERFLOW */
+	overflow: hidden;
+}
+
+footer {
+	margin: 70px 0 50px 0;
+	padding: 20px 0 20px 0;
+	border-top: 1px solid rgba(0, 0, 0, .45);
+	font-size: 11px;	
+}
+
+header {
+	border-top: 1px solid rgba(0, 0, 0, .15);
+}
+
+
+
+/* 
+################### ICONS 
+*/
+.item ul {
+display: inline;
+	list-style: none;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+.item li {
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+.tooltip {
+	font-family: 'Coming Soon', cursive;
+}
+
+/* 
+############### ITEM INFO 
+*/
+section {
+	position: absolute;
+	background: rgba(0,0,0,.75);
+	right: -300px;
+	width: 300px;	
+	padding: 0;
+	
+	-webkit-transition: right, .5s ease;
+	transition: right, .5s ease;
+}
+
+.item:hover section {
+	right: 0;
+}
+
+section h5 {
+	color: white;
+	margin: 13px 0 0 15px;
+	padding: 0;
+	font-size: 17px;
+}
+
+section p {
+	color: white;
+	margin: 5px 15px 15px 15px;
+	padding: 0
+}
+
+.item ul + img {
+	height: 300px;
+	width: 300px;	
+}
+
+
